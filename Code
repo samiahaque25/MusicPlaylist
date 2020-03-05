@@ -1,0 +1,76 @@
+// Samia Haque
+// CISC 3130 - MY9
+
+
+import java.util.LinkedList;
+
+
+public class MusicPlaylist {
+	//Storing one week of data in a queue
+	public MyQueue extends LinkedList{
+		LinkedList mylist = new LinkedList();
+		
+		//Text from the music files of 4 weeks are added
+		mylist.insertFirst(week 1);
+		mylist.insertFirst(week 2);
+		mylist.insertFirst(week 3);
+		mylist.insertFirst(week 4);
+		
+		mylist.displayList();
+		
+		public void MyQueue(String[] filename) {
+			
+			//the filename is opened and converted to queue
+			
+			a[++rear]= week 1;
+			temp = a[front--];
+			b[++rear]= week 2;
+			temp = b[front--];
+			c[++rear]= week 3;
+			temp = c[front--];
+			d[++rear]= week 4;
+			temp = d[front--];
+			
+			mylist.insertLast(week 1);
+			mylist.insertLast(week 2);
+			mylist.insertLast(week 3);
+			mylist.insertLast(week 4);
+			
+			//the files are made iterable
+			
+			myFiles = [week 1, week 2, week 3, week 4];
+			
+			
+			//for song implementation
+			
+			class Song {
+				private String track;
+				private Song next;
+			}
+			
+			public class Playlist {
+				private Song first;
+				public void Playlist() {
+				}
+				
+				public void addSong(Song s) {
+				}
+				public Song listenToSong() {
+				}
+				//the next song shows up
+				
+				//Song History List implementation
+				
+				public class SongHistoryList{
+					private Song first;
+					public void SongHistoryList() {
+						//new list is created
+					}
+					public void addSong(Song s) {
+					}
+					public Song lastListed() {
+						//retrieves the next song to listen to
+					}
+				}
+			}
+
